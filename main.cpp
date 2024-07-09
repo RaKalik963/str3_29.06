@@ -91,8 +91,9 @@ void reverseSentences(char* text) {
 int main() {
     const char text[] = "Count the number of occurrences of a word specified by the user in the text. Turn the entire text over.";
     cout << text << endl;
+    cout << endl;
     char word[100];  
-    cout << "Enter word: ";
+    cout << "Enter word to find occurrences: ";
     cin >> word;
 
     int occurrences = countOccurrences(text, word);
